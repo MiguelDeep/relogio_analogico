@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-image: linear-gradient(to right ,rgb(58, 58, 134),transparent);
+}
+
+h1{
+    font-size: 4em;
+    color: white;
+    text-align: center;
+}
+input{
+    margin: auto;
+    margin: 30px;
+    font-size: 2em;
+    width: 160px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(8, 8, 39);
+    text-align: center;
+   
+}
+::placeholder{
+    color: black;
+}
+.espaco{
+    font-size: 3em;
+    font-weight: bold;
+}
+.Tempo{
+    width: 250px;
+    height: 150px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgba(6, 6, 46, 0.423);
+    border-radius: 10px;
+    padding: 10px;
+}
+button{
+    border: none;
+    width: 60px;
+    padding: 5px;
+    border-radius: 10px;
+    margin: auto;
+}
+button:hover{
+    background-color: rgb(65, 62, 62);
+    color: white;
+    transition-duration: 1s;
+}
+
+#temporizador{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}

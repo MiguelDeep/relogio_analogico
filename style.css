@@ -1,0 +1,126 @@
+
+.um{
+    
+    transform: rotate(30deg);
+    
+}
+.um1{
+    transform: rotate(45deg);
+}
+.dois{
+    transform: rotate(60deg);
+}
+.tres{
+    transform: rotate(90deg);
+}
+.quatro{
+    transform: rotate(120deg);
+}
+.cinco{
+    transform: rotate(150deg);
+}
+.seis{
+    transform: rotate(180deg);
+}
+.sete{
+    transform: rotate(210deg);
+}
+.oito{
+    transform: rotate(240deg);
+}
+.nove{
+    transform: rotate(270deg);
+}
+.dez{
+    transform: rotate(300deg);
+}
+.onze{
+    transform: rotate(330deg);
+}
+.doze{
+    transform: rotate(0deg);
+}
+*{
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    
+}
+body{
+    background-color:rgb(4, 4, 52);
+}
+a{
+    margin:10px ;
+    margin-top: 10px;
+    border: 0px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color:blue;
+    padding: 10px;
+    color: black;
+}
+a:hover{
+     color: white;
+     background: rgb(1, 1, 50);
+}
+form{
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    background-color:rgb(4, 4, 52);
+}
+#relogio{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align-last: center;
+    border: 10px solid red;
+    background-color: rgba(255, 255, 255, 0.878);
+}
+#relogio span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+}
+#minutos,#horas,#segundos{
+    bottom: 50%;
+    position: absolute;
+    background-color:rgb(3, 3, 46);
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#horas{
+    width: 10px;
+    height: 35%;
+    z-index: 1;
+    border: 1px solid gray;
+}
+#minutos{
+    width: 8px;
+    height: 40%;
+    z-index: 2;
+    border: 1px solid rgb(109, 51, 51);
+}
+#segundos{
+    width: 4px;
+    height: 45%;
+    z-index: 3;
+   background-color:rgb(134, 134, 166);
+}
+#relogio::after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    z-index: 4;
+    background-color: black;
+    border-radius: 50%;
+    border: 1px solid gray;
+}

@@ -1,0 +1,56 @@
+body{
+    background-color:gray;
+}
+p{
+    color: black;
+}
+h1{
+    color: white;
+}
+
+div{
+    text-align: center;
+    
+}
+div#m,div#parado{
+    display: inline;
+    flex-direction: column;
+    text-align: center;
+}
+#bt{
+    color: black;
+}
+button{
+    height: 2.2em;
+    width: 5.5em;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.iniciar{
+    background-color:gray;
+}
+
+.pausar{
+    background-color: grey;
+}
+
+.parar{
+    background-color: gray;
+}
+#m{
+    display: flex;
+    columns: 2;
+    width: auto;
+    height: auto;
+}
+button:hover{
+    background-color: rgb(75, 72, 72);
+    transition-duration: 1s;
+   
+}
